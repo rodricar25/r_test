@@ -17,7 +17,7 @@ library(readr)
 # Plane icon
 # ==========================================
 plane_icon <- makeIcon(
-  iconUrl = "travel.png",
+  iconUrl = "image.png",
   iconWidth = 35,
   iconHeight = 35
 )
