@@ -1814,6 +1814,45 @@
         "RemoteSha.Version": "0.4-29"
       }
     },
+    "purrr": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "purrr",
+        "Title": "Functional Programming Tools",
+        "Version": "1.2.1",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"https://ror.org/03wc8by49\"))\n  )",
+        "Description": "A complete and consistent functional programming toolkit for\n    R.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://purrr.tidyverse.org/, https://github.com/tidyverse/purrr",
+        "BugReports": "https://github.com/tidyverse/purrr/issues",
+        "Depends": "R (>= 4.1)",
+        "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),\nrlang (>= 1.1.1), vctrs (>= 0.6.3)",
+        "Suggests": "carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr,\nlubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0),\ntibble, tidyselect",
+        "LinkingTo": "cli",
+        "VignetteBuilder": "knitr",
+        "Biarch": "true",
+        "Config/build/compilation-database": "true",
+        "Config/Needs/website": "tidyverse/tidytemplate, tidyr",
+        "Config/testthat/edition": "3",
+        "Config/testthat/parallel": "TRUE",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2026-01-08 20:56:46 UTC; hadleywickham",
+        "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Lionel Henry [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
+        "Maintainer": "Hadley Wickham <hadley@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2026-01-09 10:30:02 UTC",
+        "Built": "R 4.5.2; x86_64-w64-mingw32; 2026-01-23 03:06:55 UTC; windows",
+        "Archs": "x64",
+        "RemoteType": "standard",
+        "RemotePkgRef": "purrr",
+        "RemoteRef": "purrr",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "1.2.1"
+      }
+    },
     "rappdirs": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1919,41 +1958,6 @@
         "RemoteRef": "readr",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemoteSha": "2.1.6"
-      }
-    },
-    "remotes": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "remotes",
-        "Title": "R Package Installation from Remote Repositories, Including\n'GitHub'",
-        "Version": "2.5.0",
-        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Martin\", \"Morgan\", role = \"aut\"),\n    person(\"Dan\", \"Tenenbaum\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"Ascent Digital Services\", role = \"cph\")\n  )",
-        "Description": "Download and install R packages stored in 'GitHub', 'GitLab',\n    'Bitbucket', 'Bioconductor', or plain 'subversion' or 'git'\n    repositories.  This package provides the 'install_*' functions in\n    'devtools'. Indeed most of the code was copied over from 'devtools'.",
-        "License": "MIT + file LICENSE",
-        "URL": "https://remotes.r-lib.org, https://github.com/r-lib/remotes#readme",
-        "BugReports": "https://github.com/r-lib/remotes/issues",
-        "Depends": "R (>= 3.0.0)",
-        "Imports": "methods, stats, tools, utils",
-        "Suggests": "brew, callr, codetools, covr, curl, git2r (>= 0.23.0), knitr,\nmockery, pingr, pkgbuild (>= 1.0.1), rmarkdown, rprojroot,\ntestthat (>= 3.0.0), webfakes, withr",
-        "VignetteBuilder": "knitr",
-        "Config/Needs/website": "tidyverse/tidytemplate",
-        "Config/testthat/edition": "3",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "7.2.3",
-        "SystemRequirements": "Subversion for install_svn, git for install_git",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-03-17 12:41:55 UTC; gaborcsardi",
-        "Author": "Gábor Csárdi [aut, cre],\n  Jim Hester [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Martin Morgan [aut],\n  Dan Tenenbaum [aut],\n  Posit Software, PBC [cph, fnd],\n  Ascent Digital Services [cph]",
-        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-03-17 13:20:02 UTC",
-        "Built": "R 4.5.3; ; 2026-07-06 00:57:31 UTC; windows",
-        "RemoteType": "standard",
-        "RemotePkgRef": "remotes",
-        "RemoteRef": "remotes",
-        "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha.Version": "2.5.0"
       }
     },
     "rlang": {
@@ -2302,7 +2306,6 @@
         "Date/Publication": "2026-06-19 15:10:02 UTC",
         "Built": "R 4.5.3; x86_64-w64-mingw32; 2026-07-06 00:57:52 UTC; windows",
         "Archs": "x64",
-        "RemoteType": "standard",
         "RemotePkgRef": "terra",
         "RemoteRef": "terra",
         "RemoteRepos": "https://cran.rstudio.com",
@@ -2799,8 +2802,11 @@
     }
   },
   "files": {
+    ".RData": {
+      "checksum": "de42266edaefd31794c192bc0f08154b"
+    },
     "app.R": {
-      "checksum": "4790ec1e70bdf03436cf163566518788"
+      "checksum": "b324fbbd70995986bc2c2445cbb49ed2"
     },
     "trip_with_coordinates.csv": {
       "checksum": "f9dd41d914d8687e373cc4e6b9834560"

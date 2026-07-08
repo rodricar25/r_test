@@ -206,7 +206,7 @@ server <- function(input, output, session) {
         # Update text info
         status_text(
           paste0(
-            "Flying: ", row$City_From, " → ", row$City_To,
+            "Route: ", row$City_From, " → ", row$City_To,
             "   (", format(row$Next_Date, "%d/%m/%Y"), ")"
           )
         )
